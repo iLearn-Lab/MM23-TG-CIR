@@ -12,6 +12,7 @@
 ## Links
  
 - **Paper**: [ACM DL](https://dl.acm.org/doi/10.1145/3581783.3611817)
+- **Checkpoints**: [Download Link](https://drive.google.com/file/d/159rBhWyhkLN7sXAi8iyW_ljzFNLJinKa/view?usp=sharing)
 
 ## Key dependencies
 ```
@@ -30,7 +31,7 @@ tqdm==4.65.0
  
 ### FashionIQ & Shoes
  
-Spell-corrected data files for FashionIQ and Shoes are provided via the [Correction files](https://drive.google.com/file/d/159rBhWyhkLN7sXAi8iyW_ljzFNLJinKa/view?usp=sharing) download link. Download and place them in the appropriate data directories before training.
+Spell-corrected data files for FashionIQ and Shoes are provided in correction_dict folder.
  
 ### CIRR
  
@@ -66,8 +67,7 @@ python train.py --dataset 'shoes' --model_dir <output_dir> \
 python train.py --dataset 'cirr' --model_dir <output_dir> \
   --mu_ 0.1 --nu_ 1 --kappa_ 0.1 --tau_ 0.05 --P 4 --Q 8
 ```
- 
-> **Note for CIRR**: Test results must be obtained through the official evaluation website. Use `cirr_test_submission.py` to generate the required submission files.
+
  
 ---
  
@@ -79,8 +79,16 @@ If you find this work useful, please cite:
 @inproceedings{wen2023target,
   title={Target-Guided Composed Image Retrieval},
   author={Wen, Haokun and Zhang, Xian and Song, Xuemeng and Wei, Yinwei and Nie, Liqiang},
-  booktitle={Proceedings of the 31st ACM International Conference on Multimedia},
+  booktitle={Proceedings of the ACM International Conference on Multimedia},
   pages={915--923},
   year={2023}
 }
 ```
+
+---
+ 
+## License
+ 
+This program is licensed under the GNU General Public License 3.0.  
+See [https://www.gnu.org/licenses/gpl-3.0.html](https://www.gnu.org/licenses/gpl-3.0.html) for details.  
+Any derivative work must also be licensed under the GNU GPL as published by the Free Software Foundation, either Version 3 or (at your option) any later version.
