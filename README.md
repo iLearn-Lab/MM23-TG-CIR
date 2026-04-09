@@ -12,7 +12,7 @@
 ## Links
  
 - **Paper**: [ACM DL](https://dl.acm.org/doi/10.1145/3581783.3611817)
-- **Checkpoints**: [Download Link](https://drive.google.com/file/d/159rBhWyhkLN7sXAi8iyW_ljzFNLJinKa/view?usp=sharing)
+- **Checkpoints**: [Download Link](https://drive.google.com/file/d/1OdZTtJqy-RTpYXBaq5ThmH3IBnGvYCyi/view)
 
 ## Key dependencies
 ```
